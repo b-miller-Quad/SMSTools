@@ -1,0 +1,13 @@
+
+
+Set Up
+    Virtual Enviroment
+        - pip install virtualenv #Installs VirtualEnv
+        - virtualenv env #Builds new Virtual Enviroment called 'env'
+        - .\env\Scripts\activate.ps1 #Activates 'env' May need to update - for windows. May need to set execution policy as unrestricted. 'Set-ExecutionPolicy Unrestricted -Scope Process'  Only sets for current powershell session
+        - pip install Flask flask-sqlalchemy #Installs Flask
+
+    Database
+        - if not activate env
+        - python # start python shell
+        - from app import db.
